@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    min-height: 1500px;
+    margin:0px;
+}
+
+header{
+    background-color: blueviolet;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+}
+
+header h1{
+    display: inline-block;
+    margin: 0 100px;
+    color: white;
+}
+
+header img{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+nav{
+    display: inline-block;
+    width: 500px;
+    background-color: aquamarine;
+}
+
+nav h2{
+    display: inline-block;
+    width: 100px;
+}
+
+nav h2 a{
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: chartreuse;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+}
+
+
+main section{
+    display: inline-block;
+    background-color: lightgreen;
+    width: 33%;
+}
+
+main section img{
+    height: 300px;
+}
+
+#heading{
+    padding-top: 200px;
+}
+
+
+
+/* mobile responsive design */
+
+@media screen and (max-width:768px){
+    header{
+        background-color: cadetblue;
+    }
+
+    main section{
+       display: block;
+       width: 100%;
+    }
+}
